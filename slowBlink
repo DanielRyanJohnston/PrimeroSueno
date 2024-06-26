@@ -1,0 +1,31 @@
+#include <Adafruit_NeoPixel.h>
+
+//Pin that NeoPixel strand is connected to on Flora
+#define LED_PIN 6
+
+//Define total numbe of LEDs on strip 23 
+#define LED_COUNT 24
+
+//Declare NeoPixel Strip object
+Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
+
+//Define color for LED strip
+uint32_t white = strip.Color(255, 255, 255);
+
+void setup() {
+strip.begin();
+strip.show(); //initialize all pixels to off
+}
+
+void loop() {
+//on for 10 second
+strip.fill(white);
+strip.show();
+delay(10000);
+//off for 10 seconds
+strip.clear();
+strip.show();
+delay(10000);
+// strip.show();
+
+}
