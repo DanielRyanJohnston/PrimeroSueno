@@ -12,3 +12,24 @@ Raspberry Pi GPIO-controlled video looper
 Copyright (c) 2019 Alex Lubbock
 License MIT
 
+Assuming POWER OFF START:
+
+POWER ON : Push and HOLD 1..2..3..4 (on SUGAR)
+BLUE LIGHT ON (SUGAR).
+
+WAIT UNTIL startup sequence complete (green terminal prompt will appear).
+LET SIT IN THIS STATE FOR 20-30s. OR PRESS ENTER A COUPLE OF TIMES.
+
+`cd PrimeroSueno`
+
+`ls` <- check files are there.
+
+`./run.sh` <-- remember the period and slash! Just this and enter.
+
+NO AUTOSTART - PRESS A BUTTON TO QUEUE START.
+
+If Button Testing Required:
+
+`python3 button_tester.py --buttons 1 2 3 4` 
+
+AT ANY POINT USE CTRL-C to quit out of a running process (like Button Tester) if you're done.
