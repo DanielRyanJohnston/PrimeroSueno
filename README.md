@@ -1,7 +1,7 @@
 # PrimeroSueno
 
-Wearable Project for Primero Sueño opera premiered at The Met Cloisters Jan 2025
-Developed by Daniel Ryan Johnston and by Kari Love as part of a Vision Into Art Fellowship
+Wearable Projector for Primero Sueño opera premiered at The Met Cloisters Jan 2025
+Developed by Daniel Ryan Johnston and by Kari Love as part of a Vision Into Art Impact Fellowship
 
 This project combines a Pico Projector with Raspberry Pi Zero W 2 and a first surface mirror
 
@@ -23,6 +23,8 @@ LET SIT IN THIS STATE FOR 20-30s. OR PRESS ENTER A COUPLE OF TIMES.
 `cd PrimeroSueno`
 
 `ls` <- check files are there.
+
+Special thanks to Costume Designer Andrea Lauer, Cindy Wang, Nikolai Kozak, Natasha Durnzy, and Ian Cox.
 
 `./run.sh` <-- remember the period and slash! Just this and enter.
 
