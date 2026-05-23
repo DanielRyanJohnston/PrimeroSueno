@@ -5,6 +5,7 @@ Developed by Daniel Ryan Johnston and by Kari Love as part of a Vision Into Art 
 
 This project combines a Pico Projector with Raspberry Pi Zero W 2 and a first surface mirror
 
+Right now the Google Doc Tutorial is more complete than this GitHub page.
 Tutorial: https://docs.google.com/document/d/1ZOuhU8HzmDZxRYDuTPh4y_7ntX1cBFEdLn2npm-S11U/edit?usp=sharing 
 
 Utilizes: https://github.com/alubbock/rpi-vidlooper 
