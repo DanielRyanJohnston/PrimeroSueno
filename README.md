@@ -25,8 +25,6 @@ LET SIT IN THIS STATE FOR 20-30s. OR PRESS ENTER A COUPLE OF TIMES.
 
 `ls` <- check files are there.
 
-Special thanks to Costume Designer Andrea Lauer, Cindy Wang, Nikolai Kozak, Natasha Durnzy, and Ian Cox.
-
 `./run.sh` <-- remember the period and slash! Just this and enter.
 
 NO AUTOSTART - PRESS A BUTTON TO QUEUE START.
@@ -36,3 +34,6 @@ If Button Testing Required:
 `python3 button_tester.py --buttons 1 2 3 4` 
 
 AT ANY POINT USE CTRL-C to quit out of a running process (like Button Tester) if you're done.
+
+
+Special thanks to Costume Designer Andrea Lauer, Cindy Wang, Nikolai Kozak, Natasha Durnzy, and Ian Cox.
